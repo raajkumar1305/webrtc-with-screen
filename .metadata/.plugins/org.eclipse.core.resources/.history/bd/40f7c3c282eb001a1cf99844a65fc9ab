@@ -1,0 +1,30 @@
+<%@ page language="java" contentType="text/html; charset=ISO-8859-1"
+    pageEncoding="ISO-8859-1"%>
+
+<!DOCTYPE html>
+<html>
+
+<head>
+
+  <title>Realtime communication with WebRTC</title>
+
+  <link rel="stylesheet" href="/plugin/css/main.css" />
+
+</head>
+
+<body>
+
+  <h1>Realtime communication with WebRTC</h1>
+
+  <div id="videos">
+    <div><video id="localVideo" autoplay muted></video></div>
+    <div><video id="remoteVideo" autoplay></video></div>
+  </div>
+        <script src="https://www.webrtc-experiment.com/socket.io.js"> </script>
+
+  <script src="https://webrtc.github.io/adapter/adapter-latest.js"></script>
+  <script src="/plugin/js/main.js"></script>
+
+</body>
+
+</html>
